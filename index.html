@@ -20,6 +20,16 @@ Create a registration form with neccessary fields needed by NGO for registration
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required>
 
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
         <label for="address">Address:</label>
         <textarea id="address" name="address" required></textarea>
 
@@ -27,6 +37,8 @@ Create a registration form with neccessary fields needed by NGO for registration
         <textarea id="health_issue" name="health_issue"></textarea>
 
         <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    
     </form> 
 </body>
 <footer>
